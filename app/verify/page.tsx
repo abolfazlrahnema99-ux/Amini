@@ -45,7 +45,7 @@ export default function VerifyPage() {
             setTimer(120);
             setCanResend(false);
 
-            await fetch("http://127.0.0.1:8000/api/send-otp", {
+            await fetch("http://sch-amini.ir/api/send-otp", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

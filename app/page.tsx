@@ -31,7 +31,7 @@ export default function Home() {
         try {
             setLoading(true);
 
-            const res = await fetch("http://127.0.0.1:8000/api/send-otp", {
+            const res = await fetch("http://sch-amini.ir/api/send-otp", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

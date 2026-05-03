@@ -15,7 +15,7 @@ export default function AdminLogin() {
         try {
             setLoading(true);
 
-            const res = await fetch("http://127.0.0.1:8000/api/admin/login", {
+            const res = await fetch("http://sch-amini.ir/api/login", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

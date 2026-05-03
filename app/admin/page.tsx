@@ -57,7 +57,7 @@ export default function Page() {
 
         async function fetchStats() {
             try {
-                const res = await fetch("http://127.0.0.1:8000/api/dashboard/stats");
+                const res = await fetch("http://sch-amini.ir/api/stats");
                 const data = await res.json();
                 setStats(data);
             } catch (err) {

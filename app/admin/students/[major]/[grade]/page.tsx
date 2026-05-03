@@ -39,7 +39,7 @@ export default function Page() {
                 if (isInitial) setLoading(true);
 
                 const res = await fetch(
-                    `http://127.0.0.1:8000/api/students/${major}/${grade}`
+                    `http://sch-amini.ir/api/students/${major}/${grade}`
                 );
 
                 const data = await res.json();
